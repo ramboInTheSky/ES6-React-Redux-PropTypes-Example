@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Note /> renders correctly 1`] = `
+<styled.div
+  data-bdd="note-item-e2054c02-08dd-e811-80d2-005056825b41"
+  key="e2054c02-08dd-e811-80d2-005056825b41"
+>
+  <styled.div>
+    <styled.span
+      data-bdd="note-e2054c02-08dd-e811-80d2-005056825b41-date"
+    >
+      10/08/2018 - 8:52pm
+    </styled.span>
+    <styled.span
+      data-bdd="note-e2054c02-08dd-e811-80d2-005056825b41-subject"
+    >
+      usman-moses
+    </styled.span>
+    <div>
+      <span
+        data-bdd="note-e2054c02-08dd-e811-80d2-005056825b41-text"
+      >
+        This is a test note with attachment :)
+      </span>
+    </div>
+  </styled.div>
+</styled.div>
+`;

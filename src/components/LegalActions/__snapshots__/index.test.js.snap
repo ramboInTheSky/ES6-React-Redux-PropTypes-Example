@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LegalActions /> renders correctly with a legalReferral 1`] = `
+<React.Fragment>
+  <styled.h3>
+    heading
+  </styled.h3>
+  <styled.div>
+    <WithTheme(PanelListItem)
+      dataBdd="primaryLegalAction"
+      href="/alink"
+      title="A Referral"
+    >
+      <Styled(styled.p)>
+        <React.Fragment>
+          <styled.span>
+            createdOn
+          </styled.span>
+           
+          <span
+            data-bdd="primaryLegalAction-created-on"
+          >
+            15/07/2018
+          </span>
+          <br />
+        </React.Fragment>
+        <React.Fragment>
+          <styled.span>
+            status
+          </styled.span>
+           
+          <span
+            data-bdd="primaryLegalAction-status"
+          >
+            Active
+          </span>
+          <br />
+        </React.Fragment>
+        <React.Fragment>
+          <styled.span>
+            owner
+          </styled.span>
+           
+          <span
+            data-bdd="primaryLegalAction-owner"
+          >
+            Fred
+          </span>
+          <br />
+        </React.Fragment>
+      </Styled(styled.p)>
+    </WithTheme(PanelListItem)>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`<LegalActions /> renders correctly with a primaryLegalAction 1`] = `
+<React.Fragment>
+  <styled.h3>
+    heading
+  </styled.h3>
+  <styled.div>
+    <WithTheme(PanelListItem)
+      alert={true}
+      dataBdd="primaryLegalAction"
+      title="A NOSP"
+    >
+      <Styled(styled.p)>
+        <React.Fragment>
+          <WithTheme(styled.span)
+            isExpiring={true}
+          >
+            <styled.span>
+              expires
+            </styled.span>
+             
+            <span
+              data-bdd="primaryLegalAction-expiry-date"
+            >
+              expiryDate
+            </span>
+          </WithTheme(styled.span)>
+          <br />
+        </React.Fragment>
+        <React.Fragment>
+          <styled.span>
+            createdOn
+          </styled.span>
+           
+          <span
+            data-bdd="primaryLegalAction-created-on"
+          >
+            15/07/2018
+          </span>
+          <br />
+        </React.Fragment>
+      </Styled(styled.p)>
+    </WithTheme(PanelListItem)>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`<LegalActions /> renders correctly with no legal actions 1`] = `
+<React.Fragment>
+  <styled.h3>
+    heading
+  </styled.h3>
+  <styled.div />
+</React.Fragment>
+`;

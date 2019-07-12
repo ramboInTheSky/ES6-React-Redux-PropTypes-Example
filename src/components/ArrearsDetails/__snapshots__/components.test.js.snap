@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrearsDetails components should render <Heading /> correctly 1`] = `
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+<styled.h3
+  className="c0"
+/>
+`;
+
+exports[`ArrearsDetails components should render <Label /> correctly 1`] = `
+.c0 {
+  font-weight: 700;
+}
+
+@media (min-width:1001px) {
+  .c0 {
+    white-space: nowrap;
+  }
+}
+
+@media (min-width:768px) and (max-width:1000px) {
+  .c0 {
+    white-space: nowrap;
+  }
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`ArrearsDetails components should render <LabelLink /> correctly 1`] = `
+.c0 {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0;
+  text-align: left;
+}
+
+<WithTheme(Button)
+  className="c0"
+/>
+`;
+
+exports[`ArrearsDetails components should render <Wrapper /> correctly 1`] = `
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+<div
+  className="c0"
+/>
+`;

@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MediaUploader /> should render correctly 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-12"
+  >
+    <FormWrapper
+      backButtonText={null}
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="mediaUploader"
+      handleBackClick={null}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <p>
+        Hello
+        <br />
+        World
+      </p>
+      <styled.div>
+        <AdvancedFileUpload
+          accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf,.txt,.jpg,.png"
+          clearMediaState={[Function]}
+          errorText="There was a error"
+          files={Array []}
+          history={
+            Object {
+              "location": Object {},
+            }
+          }
+          labelText="Some label text"
+          maxFileSize={20971520}
+          maxFiles={10}
+          multiple={true}
+          onChange={[Function]}
+          onRemove={[Function]}
+          onSubmit={[Function]}
+          paragraphAttach="Hello"
+          paragraphContinue="World"
+          previewsRenderer={[Function]}
+          removeButtonLabel="Remove"
+          retryButtonLabel="Retry"
+          submitLabel="Submit"
+          text="Awesome text"
+          updatePageHeader={[Function]}
+          uploadSuccessMessage="Upload successful"
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<MediaUploader /> should render correctly with error 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-12"
+  >
+    <FormWrapper
+      backButtonText={null}
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="mediaUploader"
+      handleBackClick={null}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <p>
+        Hello
+        <br />
+        World
+      </p>
+      <styled.div>
+        <AdvancedFileUpload
+          accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf,.txt,.jpg,.png"
+          clearMediaState={[Function]}
+          errorText="There was a error"
+          files={
+            Array [
+              Object {
+                "errorText": null,
+                "hasBeenUploaded": false,
+                "hasUploadError": false,
+                "id": "some-id",
+                "isUploading": false,
+                "src": Object {
+                  "name": "Hello",
+                },
+              },
+            ]
+          }
+          hasUploadErrors={true}
+          history={
+            Object {
+              "location": Object {},
+            }
+          }
+          labelText="Some label text"
+          maxFileSize={20971520}
+          maxFiles={10}
+          multiple={true}
+          onChange={[Function]}
+          onRemove={[Function]}
+          onSubmit={[Function]}
+          paragraphAttach="Hello"
+          paragraphContinue="World"
+          previewsRenderer={[Function]}
+          removeButtonLabel="Remove"
+          retryButtonLabel="Retry"
+          submitLabel="Submit"
+          text="Awesome text"
+          updatePageHeader={[Function]}
+          uploadSuccessMessage="Upload successful"
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<MediaUploader /> should render correctly with files 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-12"
+  >
+    <FormWrapper
+      backButtonText={null}
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="mediaUploader"
+      handleBackClick={null}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <p>
+        Hello
+        <br />
+        World
+      </p>
+      <styled.div>
+        <AdvancedFileUpload
+          accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf,.txt,.jpg,.png"
+          clearMediaState={[Function]}
+          errorText="There was a error"
+          files={
+            Array [
+              Object {
+                "errorText": null,
+                "hasBeenUploaded": false,
+                "hasUploadError": false,
+                "id": "some-id",
+                "isUploading": false,
+                "src": Object {
+                  "name": "Hello",
+                },
+              },
+            ]
+          }
+          history={
+            Object {
+              "location": Object {},
+            }
+          }
+          labelText="Some label text"
+          maxFileSize={20971520}
+          maxFiles={10}
+          multiple={true}
+          onChange={[Function]}
+          onRemove={[Function]}
+          onSubmit={[Function]}
+          paragraphAttach="Hello"
+          paragraphContinue="World"
+          previewsRenderer={[Function]}
+          removeButtonLabel="Remove"
+          retryButtonLabel="Retry"
+          submitLabel="Submit"
+          text="Awesome text"
+          updatePageHeader={[Function]}
+          uploadSuccessMessage="Upload successful"
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

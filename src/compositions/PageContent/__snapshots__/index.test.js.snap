@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageContentComposition /> renders correctly 1`] = `
+<styled.div>
+  <ErrorBoundary
+    messageOnScreen="Something has gone terribly wrong here bhuuaaa"
+  >
+    <HelmetWithFavIcons>
+      <title>
+        A headng
+      </title>
+    </HelmetWithFavIcons>
+    <WithTheme(Component)
+      breadcrumb={Array []}
+      dashboardButtonText="Dashboard"
+      dashboardUrl="/"
+      innerClass="container header"
+      outerClass="container-fluid"
+      show={true}
+      showDashboardIcon={true}
+      title=""
+    />
+    <ContentBody>
+      <ErrorBoundary
+        messageOnScreen={null}
+      >
+        <Connect(ArrearsNotifications) />
+      </ErrorBoundary>
+      <ErrorBoundary
+        messageOnScreen={null}
+      >
+        <div
+          className="row"
+        >
+          Hello
+        </div>
+      </ErrorBoundary>
+    </ContentBody>
+  </ErrorBoundary>
+</styled.div>
+`;
+
+exports[`<PageContentComposition /> renders correctly when loading 1`] = `
+<Loader
+  theme={
+    Object {
+      "colors": Object {
+        "tertiaryLighter": "#D9D4D4",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<PageContentComposition /> renders correctly with a ribbon 1`] = `
+<styled.div>
+  <ErrorBoundary
+    messageOnScreen="Something has gone terribly wrong here bhuuaaa"
+  >
+    <HelmetWithFavIcons>
+      <title>
+        A different heading
+      </title>
+    </HelmetWithFavIcons>
+    <WithTheme(Component)
+      breadcrumb={Array []}
+      dashboardButtonText="Dashboard"
+      dashboardUrl="/"
+      innerClass="container header"
+      outerClass="container-fluid"
+      show={true}
+      showDashboardIcon={true}
+      title="A different heading"
+    />
+    <ContentBody>
+      <ErrorBoundary
+        messageOnScreen={null}
+      >
+        <Connect(ArrearsNotifications) />
+      </ErrorBoundary>
+      <ErrorBoundary
+        messageOnScreen={null}
+      >
+        <div
+          className="row"
+        >
+          Hello
+        </div>
+      </ErrorBoundary>
+    </ContentBody>
+  </ErrorBoundary>
+</styled.div>
+`;

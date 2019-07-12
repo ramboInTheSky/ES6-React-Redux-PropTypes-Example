@@ -1,0 +1,776 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrearsDetailTasksComposition /> renderTasks function Should render correctly in archived mode 1`] = `
+<React.Fragment>
+  <styled.div
+    data-bdd="tasks-task-item-0"
+    key="foo2018-08-20T15:08:44+00:00"
+    overdue={false}
+  >
+    <styled.div
+      data-bdd="tasks-task-0-title"
+    >
+      this is a title
+    </styled.div>
+    <styled.div>
+      <React.Fragment>
+        <styled.span>
+          Completed
+          : 
+        </styled.span>
+        <span
+          data-bdd="tasks-task-0-completed"
+        >
+          10/08/2018 - 8:52pm
+        </span>
+        <br />
+      </React.Fragment>
+      <styled.span
+        overdue={false}
+      >
+        Due by
+        : 
+      </styled.span>
+      <styled.span
+        data-bdd="tasks-task-0-date"
+        overdue={false}
+      >
+        10/08/2018 - 8:52pm
+      </styled.span>
+      <br />
+      <styled.span>
+        Owner
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-name"
+      >
+        DynamicsAATest Test
+      </span>
+      <br />
+      <styled.span>
+        Created
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-createdOn"
+      >
+        10/08/2018 - 8:52pm
+        , 
+        Frank
+      </span>
+      <br />
+    </styled.div>
+  </styled.div>
+  <styled.div
+    data-bdd="tasks-task-item-1"
+    key="bar2018-08-20T15:08:44+00:00"
+    overdue={false}
+  >
+    <styled.div
+      data-bdd="tasks-task-1-title"
+    >
+      this is another title
+    </styled.div>
+    <styled.div>
+      <React.Fragment>
+        <styled.span>
+          Cancelled
+          : 
+        </styled.span>
+        <span
+          data-bdd="tasks-task-1-cancelled"
+        >
+          10/08/2018 - 8:52pm
+        </span>
+        <br />
+      </React.Fragment>
+      <styled.span
+        overdue={false}
+      >
+        Do on
+        : 
+      </styled.span>
+      <styled.span
+        data-bdd="tasks-task-1-date"
+        overdue={false}
+      >
+        10/08/2018 - 8:52pm
+      </styled.span>
+      <br />
+      <styled.span>
+        Owner
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-1-name"
+      >
+        DynamicsAATest Test
+      </span>
+      <br />
+      <styled.span>
+        Created
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-1-createdOn"
+      >
+        10/08/2018 - 8:52pm
+        , 
+        Frank
+      </span>
+      <br />
+    </styled.div>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`<ArrearsDetailTasksComposition /> renderTasks function should render 1`] = `
+<React.Fragment>
+  <styled.div
+    data-bdd="tasks-task-item-0"
+    key="foo2018-08-20T15:08:44+00:00"
+    overdue={true}
+  >
+    <styled.div
+      data-bdd="tasks-task-0-title"
+    >
+      this is a title
+    </styled.div>
+    <styled.div>
+      <styled.span
+        overdue={true}
+      >
+        Do on
+        : 
+      </styled.span>
+      <styled.span
+        data-bdd="tasks-task-0-date"
+        overdue={true}
+      >
+        10/08/2018 - 8:52pm
+        <styled.span>
+           
+          Overdue!
+        </styled.span>
+      </styled.span>
+      <br />
+      <styled.span>
+        Owner
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-name"
+      >
+        DynamicsAATest Test
+      </span>
+      <br />
+      <styled.span>
+        Created
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-createdOn"
+      >
+        10/08/2018 - 8:52pm
+        , 
+        Frank
+      </span>
+      <br />
+    </styled.div>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-reassign"
+        onClick={[Function]}
+        type="button"
+      >
+        Reassign
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="primary"
+        data-bdd="TaskItem-complete"
+        onClick={[Function]}
+        type="button"
+      >
+        Task Complete
+      </WithTheme(Button)>
+    </styled.div>
+  </styled.div>
+  <Styled(WithTheme(Button))
+    isText={true}
+    to="/arrears-details/this-is-an-arrears-id/archived-tasks"
+  >
+    View closed and cancelled tasks
+  </Styled(WithTheme(Button))>
+</React.Fragment>
+`;
+
+exports[`<ArrearsDetailTasksComposition /> renderTasks function should render the page correctly with the task title as a link 1`] = `
+<React.Fragment>
+  <styled.div
+    data-bdd="tasks-task-item-0"
+    key="foo2018-08-20T15:08:44+00:00"
+    overdue={true}
+  >
+    <Styled(WithTheme(Button))
+      data-bdd="tasks-task-0-title"
+      isText={true}
+      to="/arrears-details/this-is-an-arrears-id/interaction/create"
+    >
+      this is a title
+    </Styled(WithTheme(Button))>
+    <styled.div>
+      <styled.span
+        overdue={true}
+      >
+        Due by
+        : 
+      </styled.span>
+      <styled.span
+        data-bdd="tasks-task-0-date"
+        overdue={true}
+      >
+        10/08/2018 - 8:52pm
+        <styled.span>
+           
+          Overdue!
+        </styled.span>
+      </styled.span>
+      <br />
+      <styled.span>
+        Owner
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-name"
+      >
+        DynamicsAATest Test
+      </span>
+      <br />
+      <styled.span>
+        Created
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-createdOn"
+      >
+        10/08/2018 - 8:52pm
+        , 
+        Frank
+      </span>
+      <br />
+    </styled.div>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-reassign"
+        onClick={[Function]}
+        type="button"
+      >
+        Reassign
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="primary"
+        data-bdd="TaskItem-complete"
+        onClick={[Function]}
+        type="button"
+      >
+        Task Complete
+      </WithTheme(Button)>
+    </styled.div>
+  </styled.div>
+  <styled.div
+    data-bdd="tasks-task-item-1"
+    key="foo2018-08-20T15:08:44+00:00"
+    overdue={true}
+  >
+    <styled.div
+      data-bdd="tasks-task-1-title"
+    >
+      this is a title
+    </styled.div>
+    <styled.div>
+      <styled.span
+        overdue={true}
+      >
+        Due by
+        : 
+      </styled.span>
+      <styled.span
+        data-bdd="tasks-task-1-date"
+        overdue={true}
+      >
+        10/08/2018 - 8:52pm
+        <styled.span>
+           
+          Overdue!
+        </styled.span>
+      </styled.span>
+      <br />
+      <styled.span>
+        Owner
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-1-name"
+      >
+        DynamicsAATest Test
+      </span>
+      <br />
+      <styled.span>
+        Created
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-1-createdOn"
+      >
+        10/08/2018 - 8:52pm
+        , 
+        Frank
+      </span>
+      <br />
+    </styled.div>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-reassign"
+        onClick={[Function]}
+        type="button"
+      >
+        Reassign
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="primary"
+        data-bdd="TaskItem-complete"
+        onClick={[Function]}
+        type="button"
+      >
+        Task Complete
+      </WithTheme(Button)>
+    </styled.div>
+  </styled.div>
+  <Styled(WithTheme(Button))
+    isText={true}
+    to="/arrears-details/this-is-an-arrears-id/archived-tasks"
+  >
+    View closed and cancelled tasks
+  </Styled(WithTheme(Button))>
+</React.Fragment>
+`;
+
+exports[`<ArrearsDetailTasksComposition /> renderTasks function should render the page correctly with the task title as a link for Legal Referral (new Legal Referral) 1`] = `
+<React.Fragment>
+  <styled.div
+    data-bdd="tasks-task-item-0"
+    key="foo2018-08-20T15:08:44+00:00"
+    overdue={true}
+  >
+    <Styled(WithTheme(Button))
+      data-bdd="tasks-task-0-title"
+      isText={true}
+      to="/arrears-details/this-is-an-arrears-id/interaction/create"
+    >
+      this is a title
+    </Styled(WithTheme(Button))>
+    <styled.div>
+      <styled.span
+        overdue={true}
+      >
+        Due by
+        : 
+      </styled.span>
+      <styled.span
+        data-bdd="tasks-task-0-date"
+        overdue={true}
+      >
+        10/08/2018 - 8:52pm
+        <styled.span>
+           
+          Overdue!
+        </styled.span>
+      </styled.span>
+      <br />
+      <styled.span>
+        Owner
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-name"
+      >
+        DynamicsAATest Test
+      </span>
+      <br />
+      <styled.span>
+        Created
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-createdOn"
+      >
+        10/08/2018 - 8:52pm
+        , 
+        Frank
+      </span>
+      <br />
+    </styled.div>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-reassign"
+        onClick={[Function]}
+        type="button"
+      >
+        Reassign
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="primary"
+        data-bdd="TaskItem-complete"
+        onClick={[Function]}
+        type="button"
+      >
+        Task Complete
+      </WithTheme(Button)>
+    </styled.div>
+  </styled.div>
+  <styled.div
+    data-bdd="tasks-task-item-1"
+    key="foo2018-08-20T15:08:44+00:00"
+    overdue={true}
+  >
+    <styled.div
+      data-bdd="tasks-task-1-title"
+    >
+      this is a title
+    </styled.div>
+    <styled.div>
+      <styled.span
+        overdue={true}
+      >
+        Due by
+        : 
+      </styled.span>
+      <styled.span
+        data-bdd="tasks-task-1-date"
+        overdue={true}
+      >
+        10/08/2018 - 8:52pm
+        <styled.span>
+           
+          Overdue!
+        </styled.span>
+      </styled.span>
+      <br />
+      <styled.span>
+        Owner
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-1-name"
+      >
+        DynamicsAATest Test
+      </span>
+      <br />
+      <styled.span>
+        Created
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-1-createdOn"
+      >
+        10/08/2018 - 8:52pm
+        , 
+        Frank
+      </span>
+      <br />
+    </styled.div>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-reassign"
+        onClick={[Function]}
+        type="button"
+      >
+        Reassign
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="primary"
+        data-bdd="TaskItem-complete"
+        onClick={[Function]}
+        type="button"
+      >
+        Task Complete
+      </WithTheme(Button)>
+    </styled.div>
+  </styled.div>
+  <Styled(WithTheme(Button))
+    isText={true}
+    to="/arrears-details/this-is-an-arrears-id/archived-tasks"
+  >
+    View closed and cancelled tasks
+  </Styled(WithTheme(Button))>
+</React.Fragment>
+`;
+
+exports[`<ArrearsDetailTasksComposition /> renderTasks function should render the page correctly with the task title as a link for Legal Referral (review Legal Referral) 1`] = `
+<React.Fragment>
+  <styled.div
+    data-bdd="tasks-task-item-0"
+    key="foo2018-08-20T15:08:44+00:00"
+    overdue={true}
+  >
+    <Styled(WithTheme(Button))
+      data-bdd="tasks-task-0-title"
+      isText={true}
+      to="/arrears-details/this-is-an-arrears-id/interaction/create"
+    >
+      this is a title
+    </Styled(WithTheme(Button))>
+    <styled.div>
+      <styled.span
+        overdue={true}
+      >
+        Due by
+        : 
+      </styled.span>
+      <styled.span
+        data-bdd="tasks-task-0-date"
+        overdue={true}
+      >
+        10/08/2018 - 8:52pm
+        <styled.span>
+           
+          Overdue!
+        </styled.span>
+      </styled.span>
+      <br />
+      <styled.span>
+        Owner
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-name"
+      >
+        DynamicsAATest Test
+      </span>
+      <br />
+      <styled.span>
+        Created
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-0-createdOn"
+      >
+        10/08/2018 - 8:52pm
+        , 
+        Frank
+      </span>
+      <br />
+    </styled.div>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-reassign"
+        onClick={[Function]}
+        type="button"
+      >
+        Reassign
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="primary"
+        data-bdd="TaskItem-complete"
+        onClick={[Function]}
+        type="button"
+      >
+        Task Complete
+      </WithTheme(Button)>
+    </styled.div>
+  </styled.div>
+  <styled.div
+    data-bdd="tasks-task-item-1"
+    key="foo2018-08-20T15:08:44+00:00"
+    overdue={true}
+  >
+    <styled.div
+      data-bdd="tasks-task-1-title"
+    >
+      this is a title
+    </styled.div>
+    <styled.div>
+      <styled.span
+        overdue={true}
+      >
+        Due by
+        : 
+      </styled.span>
+      <styled.span
+        data-bdd="tasks-task-1-date"
+        overdue={true}
+      >
+        10/08/2018 - 8:52pm
+        <styled.span>
+           
+          Overdue!
+        </styled.span>
+      </styled.span>
+      <br />
+      <styled.span>
+        Owner
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-1-name"
+      >
+        DynamicsAATest Test
+      </span>
+      <br />
+      <styled.span>
+        Created
+        : 
+      </styled.span>
+      <span
+        data-bdd="tasks-task-1-createdOn"
+      >
+        10/08/2018 - 8:52pm
+        , 
+        Frank
+      </span>
+      <br />
+    </styled.div>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskItem-reassign"
+        onClick={[Function]}
+        type="button"
+      >
+        Reassign
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        buttonType="primary"
+        data-bdd="TaskItem-complete"
+        onClick={[Function]}
+        type="button"
+      >
+        Task Complete
+      </WithTheme(Button)>
+    </styled.div>
+  </styled.div>
+  <Styled(WithTheme(Button))
+    isText={true}
+    to="/arrears-details/this-is-an-arrears-id/archived-tasks"
+  >
+    View closed and cancelled tasks
+  </Styled(WithTheme(Button))>
+</React.Fragment>
+`;
+
+exports[`<ArrearsDetailTasksComposition /> should render the page 1`] = `
+<styled.div
+  data-bdd="Tasks"
+>
+  <Styled(styled.h3)>
+    Open Tasks (1)
+  </Styled(styled.h3)>
+  <Pagination
+    items={
+      Array [
+        Object {
+          "actionType": null,
+          "createdOn": "2018-08-20T15:08:44+00:00",
+          "dueDate": "2018-08-27T15:08:44+00:00",
+          "id": "foo",
+          "owner": Object {
+            "id": "9e0dca1e-0538-e811-80c9-005056825b41",
+            "name": "DynamicsAATest Test",
+            "type": "systemusers",
+          },
+          "raisedBy": Object {
+            "name": "Frank",
+          },
+          "regardingObjectModel": Object {
+            "id": "bar",
+            "type": "Arrears",
+          },
+          "status": "Open",
+          "title": "this is a title",
+          "type": "manual",
+        },
+      ]
+    }
+    pageSize={3}
+    render={[Function]}
+  />
+</styled.div>
+`;
+
+exports[`<ArrearsDetailTasksComposition /> should render the page correctly while tasks is being populated 1`] = `
+<styled.div
+  data-bdd="Tasks"
+>
+  <Styled(styled.h3)>
+    Open Tasks (0)
+  </Styled(styled.h3)>
+  <Pagination
+    items={Array []}
+    pageSize={3}
+    render={[Function]}
+  />
+</styled.div>
+`;

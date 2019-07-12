@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentsList components should render <H3 /> correctly 1`] = `
+.c0 {
+  margin-bottom: 30px;
+}
+
+<styled.h3
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <NoteAuthor /> correctly 1`] = `
+.c0 {
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <NoteBody /> correctly 1`] = `
+.c0 {
+  word-break: break-all;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <NoteDate /> correctly 1`] = `
+.c0 {
+  font-weight: bold;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <NoteItem /> correctly 1`] = `
+.c0 {
+  margin-bottom: 1rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <NoteSubject /> correctly 1`] = `
+<span
+  className=""
+/>
+`;
+
+exports[`DocumentsList components should render <Wrapper /> correctly 1`] = `
+.c0 {
+  clear: both;
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+<div
+  className="c0"
+/>
+`;

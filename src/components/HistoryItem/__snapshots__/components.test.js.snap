@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryItem components should render <Label /> correctly 1`] = `
+.c0 {
+  font-weight: 700;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`HistoryItem components should render <Value /> correctly 1`] = `
+.c0 {
+  word-break: break-word;
+}
+
+<span
+  className="c0"
+/>
+`;

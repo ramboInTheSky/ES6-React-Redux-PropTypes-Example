@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddressTitle /> should render correctly 1`] = `
+<styled.h4
+  className="sc-fcdeBU bIENsu"
+/>
+`;
+
+exports[`<AttachmentsWrapper /> should render correctly 1`] = `
+<div
+  className="sc-fQejPQ kBUapZ"
+/>
+`;
+
+exports[`<GenerateDraftButton /> should render correctly 1`] = `
+<WithTheme(Button)
+  className="sc-gmeYpB lhPIab"
+/>
+`;
+
+exports[`<GenerateDraftContainer /> should render correctly 1`] = `
+<div
+  className="sc-kZmsYB kIGBeN"
+/>
+`;
+
+exports[`<LabelWrapper /> should render correctly 1`] = `
+<span
+  className="sc-fZwumE jPdVCD"
+/>
+`;
+
+exports[`<MandatoryField /> should render correctly 1`] = `
+<div
+  className="sc-iSDuPN ezwPiI"
+/>
+`;
+
+exports[`<TableWrapper /> should render correctly 1`] = `
+<div
+  className="sc-RcBXQ fEymJa"
+/>
+`;

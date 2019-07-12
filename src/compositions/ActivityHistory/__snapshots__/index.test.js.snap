@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActivityHistoryComposition /> should not render with no activities 1`] = `""`;
+
+exports[`<ActivityHistoryComposition /> should render with activities 1`] = `
+<styled.div
+  data-bdd="ActivityHistory"
+>
+  <Styled(styled.h3)>
+    A heading
+  </Styled(styled.h3)>
+  <Pagination
+    items={
+      Array [
+        Object {
+          "createdBy": Object {
+            "displayName": "Fred",
+          },
+          "description": "A description",
+          "id": "abc123",
+          "modifiedAt": "2018-08-31T20:52:35+00:00",
+          "type": "Email",
+        },
+        Object {
+          "createdBy": Object {
+            "displayName": "Fred",
+          },
+          "description": "A description",
+          "id": "def456",
+          "modifiedAt": "2018-08-31T20:52:35+00:00",
+          "type": "Email",
+        },
+      ]
+    }
+    pageSize={5}
+    render={[Function]}
+  />
+</styled.div>
+`;

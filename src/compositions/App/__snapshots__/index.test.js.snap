@@ -1,0 +1,1461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppComposition /> renders correctly 1`] = `
+<Switch>
+  <Route
+    component={[Function]}
+    path="/login"
+  />
+  <MediaProvider>
+    <ThemeProvider
+      theme={
+        Object {
+          "colors": Object {
+            "primary": "#E67309",
+            "primaryAccent": "#EFCB37",
+            "primaryDark": "#409C36",
+            "primaryLight": "#F5A623",
+            "secondary": "#3FB6E9",
+            "secondaryLight": "#F1F1F1",
+            "support": Object {
+              "five": "#2F89AD",
+              "four": "#34BBED",
+              "one": "#DE0066",
+              "six": "#FFFDE6",
+              "three": "#4CAE4D",
+              "two": "#FF0C00",
+            },
+            "tertiary": "#4A4A49",
+            "tertiaryLight": "#ADADAD",
+            "tertiaryLighter": "#D9D4D4",
+            "white": "#FFFFFF",
+          },
+          "fontFamily": "'Museo Sans', sans-serif",
+        }
+      }
+    >
+      <styled.div>
+        <WithTheme(Header)
+          innerClass="container"
+          isLoggedIn={false}
+          onClickLogin={[Function]}
+          onClickLogout={[Function]}
+          outerClass="container-fluid"
+        />
+        <Switch>
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/interaction/create"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/:type/:typeId/attachments"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/legal-case-referral/create"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/legal-case-referral/:submissionId/review"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/legal-case-referral/:submissionId/approve"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/payment-plan/create"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/payment-plan/:paymentPlanId"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/refer-arrears-case/create"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/send-correspondence/create"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/send-correspondence/:correspondenceId"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/pause-arrears-case/create"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/pause-arrears-case/:pauseId/approve"
+            ready={false}
+            redirectTo="/"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+            userTypes={
+              Array [
+                "manager",
+              ]
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/pause-arrears-case/:pauseId/update"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/note/create"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/task/create"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/archived-tasks"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/history/:itemId"
+            ready={false}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": false,
+                "loggedIn": false,
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+        </Switch>
+        <Footer
+          innerClass="container"
+          outerClass="container-fluid"
+          renderLeft={[Function]}
+          renderRight={[Function]}
+        />
+        <Modal
+          height="auto"
+          onClose={[Function]}
+          visible={false}
+          width="auto"
+        />
+        <Connect(PatchSelectComposition) />
+      </styled.div>
+    </ThemeProvider>
+  </MediaProvider>
+</Switch>
+`;
+
+exports[`<AppComposition /> renders correctly with a logged in HO 1`] = `
+<Switch>
+  <Route
+    component={[Function]}
+    path="/login"
+  />
+  <MediaProvider>
+    <ThemeProvider
+      theme={
+        Object {
+          "colors": Object {
+            "primary": "#E67309",
+            "primaryAccent": "#EFCB37",
+            "primaryDark": "#409C36",
+            "primaryLight": "#F5A623",
+            "secondary": "#3FB6E9",
+            "secondaryLight": "#F1F1F1",
+            "support": Object {
+              "five": "#2F89AD",
+              "four": "#34BBED",
+              "one": "#DE0066",
+              "six": "#FFFDE6",
+              "three": "#4CAE4D",
+              "two": "#FF0C00",
+            },
+            "tertiary": "#4A4A49",
+            "tertiaryLight": "#ADADAD",
+            "tertiaryLighter": "#D9D4D4",
+            "white": "#FFFFFF",
+          },
+          "fontFamily": "'Museo Sans', sans-serif",
+        }
+      }
+    >
+      <styled.div>
+        <WithTheme(Header)
+          innerClass="container"
+          isLoggedIn={true}
+          onClickLogin={[Function]}
+          onClickLogout={[Function]}
+          outerClass="container-fluid"
+          username="Fred Bloggs"
+        />
+        <Switch>
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/interaction/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/:type/:typeId/attachments"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/legal-case-referral/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/legal-case-referral/:submissionId/review"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/legal-case-referral/:submissionId/approve"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/payment-plan/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/payment-plan/:paymentPlanId"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/refer-arrears-case/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/send-correspondence/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/send-correspondence/:correspondenceId"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/pause-arrears-case/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/pause-arrears-case/:pauseId/approve"
+            ready={true}
+            redirectTo="/"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+            userTypes={
+              Array [
+                "manager",
+              ]
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/pause-arrears-case/:pauseId/update"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/note/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/task/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/archived-tasks"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/history/:itemId"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "fullname": "Fred Bloggs",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+        </Switch>
+        <Footer
+          innerClass="container"
+          outerClass="container-fluid"
+          renderLeft={[Function]}
+          renderRight={[Function]}
+        />
+        <Modal
+          height="auto"
+          onClose={[Function]}
+          visible={false}
+          width="auto"
+        />
+        <Connect(PatchSelectComposition) />
+      </styled.div>
+    </ThemeProvider>
+  </MediaProvider>
+</Switch>
+`;
+
+exports[`<AppComposition /> renders correctly with a logged in user 1`] = `
+<Switch>
+  <Route
+    component={[Function]}
+    path="/login"
+  />
+  <MediaProvider>
+    <ThemeProvider
+      theme={
+        Object {
+          "colors": Object {
+            "primary": "#E67309",
+            "primaryAccent": "#EFCB37",
+            "primaryDark": "#409C36",
+            "primaryLight": "#F5A623",
+            "secondary": "#3FB6E9",
+            "secondaryLight": "#F1F1F1",
+            "support": Object {
+              "five": "#2F89AD",
+              "four": "#34BBED",
+              "one": "#DE0066",
+              "six": "#FFFDE6",
+              "three": "#4CAE4D",
+              "two": "#FF0C00",
+            },
+            "tertiary": "#4A4A49",
+            "tertiaryLight": "#ADADAD",
+            "tertiaryLighter": "#D9D4D4",
+            "white": "#FFFFFF",
+          },
+          "fontFamily": "'Museo Sans', sans-serif",
+        }
+      }
+    >
+      <styled.div>
+        <WithTheme(Header)
+          innerClass="container"
+          isLoggedIn={true}
+          onClickLogin={[Function]}
+          onClickLogout={[Function]}
+          outerClass="container-fluid"
+          username="Fred"
+        />
+        <Switch>
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/interaction/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/:type/:typeId/attachments"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/legal-case-referral/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/legal-case-referral/:submissionId/review"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/legal-case-referral/:submissionId/approve"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/payment-plan/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/payment-plan/:paymentPlanId"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/refer-arrears-case/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/send-correspondence/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/send-correspondence/:correspondenceId"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/pause-arrears-case/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/pause-arrears-case/:pauseId/approve"
+            ready={true}
+            redirectTo="/"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+            userTypes={
+              Array [
+                "manager",
+              ]
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/pause-arrears-case/:pauseId/update"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/note/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/task/create"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/archived-tasks"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+          <PrivateRouteComponent
+            component={[Function]}
+            exact={true}
+            location={
+              Object {
+                "pathname": "/path",
+              }
+            }
+            path="/arrears-details/:arrearsId/history/:itemId"
+            ready={true}
+            redirectTo="/login"
+            user={
+              Object {
+                "initialised": true,
+                "loggedIn": true,
+                "profile": Object {
+                  "name": "Fred",
+                },
+                "userType": "userType",
+                "waiting": false,
+              }
+            }
+          />
+        </Switch>
+        <Footer
+          innerClass="container"
+          outerClass="container-fluid"
+          renderLeft={[Function]}
+          renderRight={[Function]}
+        />
+        <Modal
+          height="auto"
+          onClose={[Function]}
+          visible={false}
+          width="auto"
+        />
+        <Connect(PatchSelectComposition) />
+      </styled.div>
+    </ThemeProvider>
+  </MediaProvider>
+</Switch>
+`;

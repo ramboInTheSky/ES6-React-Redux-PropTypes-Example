@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading should render correctly 1`] = `
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+<styled.h3
+  className="c0"
+/>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrearsDashboard connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "archivedTasksLabels": Object {
+    "breadcrumbs": "Closed and cancelled tasks",
+    "cancelled": "Cancelled",
+    "completed": "Completed",
+    "heading": "Closed and cancelled tasks ({count})",
+    "reasons": "Reasons for closing",
+  },
+  "arrearsId": "123",
+  "canCreateLegalReferral": undefined,
+  "heading": "Open Tasks ({count})",
+  "isLoading": false,
+  "labels": Object {
+    "created": "Created",
+    "doDate": "Do on",
+    "dueDate": "Due by",
+    "overdue": "(OVERDUE)",
+    "owner": "Owner",
+    "taskCancelButton": "Cancel",
+    "taskCompleteButton": "Task Complete",
+    "taskReassignButton": "Reassign",
+    "viewOtherTasks": "View closed and cancelled tasks",
+  },
+  "legalReferralActionStatus": undefined,
+  "legalReferralId": undefined,
+  "tasks": Array [
+    Object {
+      "dueDate": "2018-08-27T15:08:44+00:00",
+      "id": "foo",
+      "owner": Object {
+        "id": "9e0dca1e-0538-e811-80c9-005056825b41",
+        "name": "DynamicsAATest Test",
+        "type": "systemusers",
+      },
+      "regardingObjectModel": Object {
+        "id": "bar",
+        "type": "Arrears",
+      },
+      "status": "Open",
+      "title": "this is a title",
+      "type": "manual",
+    },
+  ],
+}
+`;
+
+exports[`ArrearsDashboard connector mergeProps generates the correct props 1`] = `
+Object {
+  "archivedTasksLabels": Object {
+    "breadcrumbs": "Closed and cancelled tasks",
+    "cancelled": "Cancelled",
+    "completed": "Completed",
+    "heading": "Closed and cancelled tasks ({count})",
+    "reasons": "Reasons for closing",
+  },
+  "arrearsId": "123",
+  "bar": "baz",
+  "canCreateLegalReferral": undefined,
+  "getArrearTasks": [Function],
+  "heading": "Open Tasks ({count})",
+  "invalidateTasks": [Function],
+  "isLoading": false,
+  "labels": Object {
+    "created": "Created",
+    "doDate": "Do on",
+    "dueDate": "Due by",
+    "overdue": "(OVERDUE)",
+    "owner": "Owner",
+    "taskCancelButton": "Cancel",
+    "taskCompleteButton": "Task Complete",
+    "taskReassignButton": "Reassign",
+    "viewOtherTasks": "View closed and cancelled tasks",
+  },
+  "legalReferralActionStatus": undefined,
+  "legalReferralId": undefined,
+  "match": Object {
+    "params": Object {
+      "arrearsId": "123",
+    },
+  },
+  "openTaskModal": [Function],
+  "tasks": Array [
+    Object {
+      "dueDate": "2018-08-27T15:08:44+00:00",
+      "id": "foo",
+      "owner": Object {
+        "id": "9e0dca1e-0538-e811-80c9-005056825b41",
+        "name": "DynamicsAATest Test",
+        "type": "systemusers",
+      },
+      "regardingObjectModel": Object {
+        "id": "bar",
+        "type": "Arrears",
+      },
+      "status": "Open",
+      "title": "this is a title",
+      "type": "manual",
+    },
+  ],
+}
+`;

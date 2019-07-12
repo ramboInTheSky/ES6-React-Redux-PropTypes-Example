@@ -1,0 +1,17 @@
+export const activitiesApi = '#{Activities.Core.API}';
+export const arrearsApi = '#{Arrears.Core.API}';
+export const arrearsBaseRoute = '#{Arrears.Core.BaseRoute}';
+export const arrearsClientId = '#{Arrears.SPA.Auth0ClientId}';
+export const authTenantName = '#{Auth0.Core.TenantName}';
+export const avatarsApi = '#{NHH.Core.AvatarURL}';
+export const correspondenceApi = '#{Correspondence.Core.API}';
+export const customerDashboard = '#{Dashboards.Core.CustomerBaseURL}';
+export const customersApi = '#{Customers.Core.API}';
+export const documentsApi = '#{Documents.Core.API}';
+export const sharepointApi = '#{Documents.Core.SharePoint.BaseURL}';
+export const employeeDashboard = '#{Dashboards.Core.EmployeeBaseURL}';
+export const interactionsApi = '#{Interactions.Core.API}';
+export const notesApi = '#{Notes.Core.API}';
+export const paymentsApi = '#{Payments.Core.API}';
+export const paymentsBaseURL = '#{Payments.Core.BaseURL}';
+export const tasksApi = '#{Tasks.Core.API}';

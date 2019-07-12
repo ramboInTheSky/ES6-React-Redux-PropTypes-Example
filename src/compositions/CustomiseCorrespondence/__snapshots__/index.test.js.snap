@@ -1,0 +1,1825 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomiseCorrespondenceCompositions /> Form validations Customer validation AND SUBMIT when there are no substitutions should have Submit button active 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={true}
+      disableSubmit={false}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="SendCorrespondence-decline"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Decline
+        </WithTheme(Button)>
+      }
+      submitButtonText="submit"
+    >
+      <GenerateCorrespondence
+        arrearsId="123123"
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        generateDraft={[Function]}
+        generatePreviewLoading={false}
+        generatePreviewSubmitText="Generate Draft Correspondance"
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        recipient="Customer(s)"
+        retriableError={false}
+        sendingMethod=""
+        substitutionFields={Array []}
+        templateId=""
+        templatePreviewImage="templatePreview"
+        validateHandler={[Function]}
+      />
+      <DraftCorrespondencePreviewDocuments
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        documents={Array []}
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        fatalError={false}
+        generatePreviewLoading={false}
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        retriableError={false}
+      />
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> Form validations Customer validation AND SUBMIT when there are substitutions should have Submit button active 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={true}
+      disableSubmit={false}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="SendCorrespondence-decline"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Decline
+        </WithTheme(Button)>
+      }
+      submitButtonText="submit"
+    >
+      <GenerateCorrespondence
+        arrearsId="123123"
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        generateDraft={[Function]}
+        generatePreviewLoading={false}
+        generatePreviewSubmitText="Generate Draft Correspondance"
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        recipient="Customer(s)"
+        retriableError={false}
+        sendingMethod=""
+        substitutionFields={
+          Array [
+            Object {
+              "description": "Current contact details",
+              "key": "mergefield1",
+              "label": "Current contact details",
+              "mandatory": true,
+              "validation": "/^[a-z ,.'-]+$/i",
+            },
+          ]
+        }
+        templateId=""
+        templatePreviewImage="templatePreview"
+        validateHandler={[Function]}
+      />
+      <DraftCorrespondencePreviewDocuments
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        documents={
+          Array [
+            Object {
+              "errorType": null,
+              "id": "cddd8bb3-c8f3-e811-80d3-005056825b41",
+              "loading": true,
+              "recipientName": "MONA MOSES",
+              "sendingMethod": "Post",
+            },
+          ]
+        }
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        fatalError={false}
+        generatePreviewLoading={false}
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        retriableError={false}
+      />
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> Form validations Third Party EMAIL validation AND SUBMIT when there are no substitutions should have Submit button active 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={true}
+      disableSubmit={false}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="SendCorrespondence-decline"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Decline
+        </WithTheme(Button)>
+      }
+      submitButtonText="submit"
+    >
+      <GenerateCorrespondence
+        arrearsId="123123"
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        generateDraft={[Function]}
+        generatePreviewLoading={false}
+        generatePreviewSubmitText="Generate Draft Correspondance"
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        recipient="Third party"
+        retriableError={false}
+        sendingMethod="Email"
+        substitutionFields={Array []}
+        templateId=""
+        templatePreviewImage="templatePreview"
+        validateHandler={[Function]}
+      />
+      <DraftCorrespondencePreviewDocuments
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        documents={Array []}
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        fatalError={false}
+        generatePreviewLoading={false}
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        retriableError={false}
+      />
+      <Attachments
+        clearMediaState={[Function]}
+        dictionary={Object {}}
+        downloadedFiles={Array []}
+        getFilesByCaseId={[Function]}
+        handleFilesChange={[Function]}
+        hasDownloadError={false}
+        hasGeneratedCorrespondence={false}
+        mandatoryAttachments={Array []}
+        onChange={[Function]}
+        onRemove={[Function]}
+        onRetry={[Function]}
+        pendingFiles={Array []}
+        selectedCaseFiles={Array []}
+      />
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> Form validations Third Party EMAIL validation AND SUBMIT when there are substitutions and attachments should have Submit button active 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={true}
+      disableSubmit={false}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="SendCorrespondence-decline"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Decline
+        </WithTheme(Button)>
+      }
+      submitButtonText="submit"
+    >
+      <GenerateCorrespondence
+        arrearsId="123123"
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        generateDraft={[Function]}
+        generatePreviewLoading={false}
+        generatePreviewSubmitText="Generate Draft Correspondance"
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        recipient="Third party"
+        retriableError={false}
+        sendingMethod="Email"
+        substitutionFields={
+          Array [
+            Object {
+              "description": "Current contact details",
+              "key": "mergefield1",
+              "label": "Current contact details",
+              "mandatory": true,
+              "validation": "/^[a-z ,.'-]+$/i",
+            },
+          ]
+        }
+        templateId=""
+        templatePreviewImage="templatePreview"
+        validateHandler={[Function]}
+      />
+      <DraftCorrespondencePreviewDocuments
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        documents={
+          Array [
+            Object {
+              "errorType": null,
+              "id": "cddd8bb3-c8f3-e811-80d3-005056825b41",
+              "loading": true,
+              "recipientName": "MONA MOSES",
+              "sendingMethod": "Post",
+            },
+          ]
+        }
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        fatalError={false}
+        generatePreviewLoading={false}
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        retriableError={false}
+      />
+      <Attachments
+        clearMediaState={[Function]}
+        dictionary={Object {}}
+        downloadedFiles={Array []}
+        getFilesByCaseId={[Function]}
+        handleFilesChange={[Function]}
+        hasDownloadError={false}
+        hasGeneratedCorrespondence={false}
+        mandatoryAttachments={Array []}
+        onChange={[Function]}
+        onRemove={[Function]}
+        onRetry={[Function]}
+        pendingFiles={Array []}
+        selectedCaseFiles={
+          Array [
+            "fileURI",
+          ]
+        }
+      />
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> Form validations Third Party EMAIL validation AND SUBMIT when there are substitutions should have Submit button active 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={true}
+      disableSubmit={false}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="SendCorrespondence-decline"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Decline
+        </WithTheme(Button)>
+      }
+      submitButtonText="submit"
+    >
+      <GenerateCorrespondence
+        arrearsId="123123"
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        generateDraft={[Function]}
+        generatePreviewLoading={false}
+        generatePreviewSubmitText="Generate Draft Correspondance"
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        recipient="Third party"
+        retriableError={false}
+        sendingMethod="Email"
+        substitutionFields={
+          Array [
+            Object {
+              "description": "Current contact details",
+              "key": "mergefield1",
+              "label": "Current contact details",
+              "mandatory": true,
+              "validation": "/^[a-z ,.'-]+$/i",
+            },
+          ]
+        }
+        templateId=""
+        templatePreviewImage="templatePreview"
+        validateHandler={[Function]}
+      />
+      <DraftCorrespondencePreviewDocuments
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        documents={
+          Array [
+            Object {
+              "errorType": null,
+              "id": "cddd8bb3-c8f3-e811-80d3-005056825b41",
+              "loading": true,
+              "recipientName": "MONA MOSES",
+              "sendingMethod": "Post",
+            },
+          ]
+        }
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        fatalError={false}
+        generatePreviewLoading={false}
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        retriableError={false}
+      />
+      <Attachments
+        clearMediaState={[Function]}
+        dictionary={Object {}}
+        downloadedFiles={Array []}
+        getFilesByCaseId={[Function]}
+        handleFilesChange={[Function]}
+        hasDownloadError={false}
+        hasGeneratedCorrespondence={false}
+        mandatoryAttachments={Array []}
+        onChange={[Function]}
+        onRemove={[Function]}
+        onRetry={[Function]}
+        pendingFiles={Array []}
+        selectedCaseFiles={Array []}
+      />
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> Form validations Third Party LETTER validation AND SUBMIT when there are no substitutions should have Submit button active 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={true}
+      disableSubmit={false}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="SendCorrespondence-decline"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Decline
+        </WithTheme(Button)>
+      }
+      submitButtonText="submit"
+    >
+      <GenerateCorrespondence
+        arrearsId="123123"
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        generateDraft={[Function]}
+        generatePreviewLoading={false}
+        generatePreviewSubmitText="Generate Draft Correspondance"
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        recipient="Third party"
+        retriableError={false}
+        sendingMethod="Letter"
+        substitutionFields={Array []}
+        templateId=""
+        templatePreviewImage="templatePreview"
+        validateHandler={[Function]}
+      />
+      <DraftCorrespondencePreviewDocuments
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        documents={Array []}
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        fatalError={false}
+        generatePreviewLoading={false}
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        retriableError={false}
+      />
+      <React.Fragment>
+        <styled.div>
+          <Select
+            autocomplete={false}
+            data-state-key="mailingHouse"
+            dataBdd="CustomiseCorrespondence-mailingHouse"
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            inline={false}
+            inputValue="a mailing house choice"
+            isFullWidth={true}
+            itemToString={[Function]}
+            items={
+              Array [
+                Object {
+                  "friendlyName": "a mailing house choice",
+                  "id": "ID",
+                },
+              ]
+            }
+            labelText="Select a mailing house"
+            onChange={[Function]}
+            placeholder=""
+            required={true}
+          />
+        </styled.div>
+      </React.Fragment>
+      <Attachments
+        clearMediaState={[Function]}
+        dictionary={Object {}}
+        downloadedFiles={Array []}
+        getFilesByCaseId={[Function]}
+        handleFilesChange={[Function]}
+        hasDownloadError={false}
+        hasGeneratedCorrespondence={false}
+        mandatoryAttachments={Array []}
+        onChange={[Function]}
+        onRemove={[Function]}
+        onRetry={[Function]}
+        pendingFiles={Array []}
+        selectedCaseFiles={Array []}
+      />
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> Form validations Third Party LETTER validation AND SUBMIT when there are substitutions and attachments should have Submit button active 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={true}
+      disableSubmit={false}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="SendCorrespondence-decline"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Decline
+        </WithTheme(Button)>
+      }
+      submitButtonText="submit"
+    >
+      <GenerateCorrespondence
+        arrearsId="123123"
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        generateDraft={[Function]}
+        generatePreviewLoading={false}
+        generatePreviewSubmitText="Generate Draft Correspondance"
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        recipient="Third party"
+        retriableError={false}
+        sendingMethod="Letter"
+        substitutionFields={
+          Array [
+            Object {
+              "description": "Current contact details",
+              "key": "mergefield1",
+              "label": "Current contact details",
+              "mandatory": true,
+              "validation": "/^[a-z ,.'-]+$/i",
+            },
+          ]
+        }
+        templateId=""
+        templatePreviewImage="templatePreview"
+        validateHandler={[Function]}
+      />
+      <DraftCorrespondencePreviewDocuments
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        documents={
+          Array [
+            Object {
+              "errorType": null,
+              "id": "cddd8bb3-c8f3-e811-80d3-005056825b41",
+              "loading": true,
+              "recipientName": "MONA MOSES",
+              "sendingMethod": "Post",
+            },
+          ]
+        }
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        fatalError={false}
+        generatePreviewLoading={false}
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        retriableError={false}
+      />
+      <React.Fragment>
+        <styled.div>
+          <RadioGroup
+            labelText="Letter printing methods"
+            name="printing-method-radio"
+            required={true}
+          >
+            <Radio
+              checked={true}
+              data-bdd="CustomiseCorrespondence-printingMethod-mailing-house"
+              data-state-key="printingMethod"
+              display="block"
+              error={false}
+              hasError={false}
+              id="mailing-house"
+              key="mailing-house"
+              onChange={[Function]}
+            >
+              Print and send letter(s) via mailing house
+            </Radio>
+            <Radio
+              checked={false}
+              data-bdd="CustomiseCorrespondence-printingMethod-local"
+              data-state-key="printingMethod"
+              display="block"
+              error={false}
+              hasError={false}
+              id="local"
+              key="local"
+              onChange={[Function]}
+            >
+              Print letter(s) locally
+            </Radio>
+          </RadioGroup>
+        </styled.div>
+      </React.Fragment>
+      <React.Fragment>
+        <styled.div>
+          <Select
+            autocomplete={false}
+            data-state-key="mailingHouse"
+            dataBdd="CustomiseCorrespondence-mailingHouse"
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            inline={false}
+            inputValue="a mailing house choice"
+            isFullWidth={true}
+            itemToString={[Function]}
+            items={
+              Array [
+                Object {
+                  "friendlyName": "a mailing house choice",
+                  "id": "ID",
+                },
+              ]
+            }
+            labelText="Select a mailing house"
+            onChange={[Function]}
+            placeholder=""
+            required={true}
+          />
+        </styled.div>
+      </React.Fragment>
+      <Attachments
+        clearMediaState={[Function]}
+        dictionary={Object {}}
+        downloadedFiles={Array []}
+        getFilesByCaseId={[Function]}
+        handleFilesChange={[Function]}
+        hasDownloadError={false}
+        hasGeneratedCorrespondence={false}
+        mandatoryAttachments={Array []}
+        onChange={[Function]}
+        onRemove={[Function]}
+        onRetry={[Function]}
+        pendingFiles={Array []}
+        selectedCaseFiles={
+          Array [
+            "fileURI",
+          ]
+        }
+      />
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> Form validations Third Party SMS validation AND SUBMIT when there are no substitutions should have Submit button active 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={true}
+      disableSubmit={false}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="SendCorrespondence-decline"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Decline
+        </WithTheme(Button)>
+      }
+      submitButtonText="submit"
+    >
+      <GenerateCorrespondence
+        arrearsId="123123"
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        generateDraft={[Function]}
+        generatePreviewLoading={false}
+        generatePreviewSubmitText="Generate Draft Correspondance"
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        recipient="Third party"
+        retriableError={false}
+        sendingMethod="Sms"
+        substitutionFields={Array []}
+        templateId=""
+        templatePreviewImage="templatePreview"
+        validateHandler={[Function]}
+      />
+      <DraftCorrespondencePreviewDocuments
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        documents={Array []}
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        fatalError={false}
+        generatePreviewLoading={false}
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        retriableError={false}
+      />
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={true}
+      disableSubmit={true}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="SendCorrespondence-decline"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Decline
+        </WithTheme(Button)>
+      }
+      submitButtonText="submit"
+    >
+      <GenerateCorrespondence
+        arrearsId="123123"
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        generateDraft={[Function]}
+        generatePreviewLoading={false}
+        generatePreviewSubmitText="Generate Draft Correspondance"
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        recipient="Customer"
+        retriableError={false}
+        sendingMethod=""
+        substitutionFields={
+          Array [
+            Object {
+              "description": "Some description",
+              "key": "mergefield1",
+              "label": "Some label",
+              "mandatory": true,
+              "validation": "/^[a-z ,.'-]+$/i",
+            },
+            Object {
+              "description": "Some description",
+              "key": "mergefield2",
+              "label": "Some label",
+              "mandatory": true,
+              "validation": "/^[a-z ,.'-]+$/i",
+            },
+          ]
+        }
+        templateId=""
+        templatePreviewImage="templatePreview"
+        validateHandler={[Function]}
+      />
+      <DraftCorrespondencePreviewDocuments
+        closeTemplate={[Function]}
+        dataBddPrefix="CustomiseCorrespondence"
+        documents={Array []}
+        errorText={
+          Object {
+            "addressCity": "Please enter city",
+            "addressLine1": "Please enter address line 1",
+            "addressLine2": "Please enter address line 2",
+            "addressLine3": "Please enter address line 3",
+            "addressPostcode": "Please enter post code",
+            "emailInvalid": "Email not valid",
+            "emailMissing": "Please enter email",
+            "fatalError": "Generation failed. Please contact IT",
+            "mergeFieldMissingData": "Please enter data for {field}",
+            "mergeFieldMissingDataInvalidData": "Validation failed for {field}",
+            "mobileInvalid": "Phone not valid",
+            "mobileMissing": "Please enter mobile phone",
+            "noTemplateFound": "No template found, please contact your IT help desk",
+            "printMethodMissing": "Please enter a print method",
+            "recipient": "Please select a recipient",
+            "retriableError": "Correspondence merge failed. Please retry. If the problem persists please contact IT",
+            "sendingMethod": "Please select a sendingMethod",
+            "template": "Please select a template",
+          }
+        }
+        fatalError={false}
+        generatePreviewLoading={false}
+        labels={
+          Object {
+            "address": "Address",
+            "addressCity": "City",
+            "addressLine1": "Line 1",
+            "addressLine2": "Line 2",
+            "addressLine3": "Line 3",
+            "addressPostcode": "Post code",
+            "backButton": "back",
+            "closeTemplate": "Close",
+            "decline": "Decline",
+            "emailAddress": "Email Address",
+            "generateDraft": "Generate Draft Correspondence",
+            "generatedCorrespondence": "Generated Correspondence",
+            "letterPrintingMethods": "Letter printing methods",
+            "mailingHouse": "Select a mailing house",
+            "mobilePhone": "Mobile phone",
+            "nextButton": "next",
+            "previewTemplate": "Preview {templateName}",
+            "printLocally": "Print letter(s) locally",
+            "printViaMailingHouse": "Print and send letter(s) via mailing house",
+            "recipient": "Correspondence recipient",
+            "retryGenerateDraft": "Retry",
+            "sendingMethod": "How do you want to contact 3rd party?",
+            "submitButton": "submit",
+            "template": "Select correspondence template",
+            "viewPreview": "View preview",
+            "viewPreviewsBeforeProceeding": "You need to view each of the following correspondence previews before proceeding.",
+            "viewTemplate": "View selected template",
+          }
+        }
+        openTemplate={[Function]}
+        retriableError={false}
+      />
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> should show a list of mailing house printing options when mailing house printing method is selected  1`] = `
+<Select
+  autocomplete={false}
+  data-state-key="mailingHouse"
+  dataBdd="CustomiseCorrespondence-mailingHouse"
+  disabled={false}
+  hasError={false}
+  hideLabel={false}
+  inline={false}
+  inputValue=""
+  isFullWidth={true}
+  itemToString={[Function]}
+  items={
+    Array [
+      Object {
+        "friendlyName": "some friendly name",
+        "id": "96e93dec-2558",
+      },
+    ]
+  }
+  labelText="Select a mailing house"
+  onChange={[Function]}
+  placeholder=""
+  required={true}
+/>
+`;
+
+exports[`<CustomiseCorrespondenceCompositions /> should show a list printng methods when sending method is LETTER and correspondence documents have loaded 1`] = `
+Array [
+  <Radio
+    checked={false}
+    data-bdd="CustomiseCorrespondence-printingMethod-mailing-house"
+    data-state-key="printingMethod"
+    display="block"
+    error={false}
+    hasError={false}
+    id="mailing-house"
+    key="mailing-house"
+    onChange={[Function]}
+>
+    Print and send letter(s) via mailing house
+</Radio>,
+  <Radio
+    checked={false}
+    data-bdd="CustomiseCorrespondence-printingMethod-local"
+    data-state-key="printingMethod"
+    display="block"
+    error={false}
+    hasError={false}
+    id="local"
+    key="local"
+    onChange={[Function]}
+>
+    Print letter(s) locally
+</Radio>,
+]
+`;

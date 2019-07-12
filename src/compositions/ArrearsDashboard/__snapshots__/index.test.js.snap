@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrearsDashboardComposition /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Connect(ArrearsFiltersComposition)
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="col-lg-9"
+  >
+    <ErrorBoundary
+      messageOnScreen={null}
+    >
+      <WithTheme(Component)
+        cardLabels={
+          Object {
+            "address": "Address",
+            "customerName": "Customer Name",
+            "dueDate": "Due Date",
+            "heading": "Tasks",
+            "overdue": "overdue!",
+            "status": "Status",
+            "taskOwner": "Task Owner",
+            "title": "Title",
+          }
+        }
+        loading={false}
+        noDataMsg="Gotham is in danger"
+        tasks={Array []}
+        userId="ABC123"
+        youText=""
+      />
+    </ErrorBoundary>
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <ErrorBoundary
+      messageOnScreen={null}
+    >
+      <styled.div>
+        <ActivePatchList
+          isButtonBottomAligned={true}
+          openPatchSelect={[Function]}
+          patches={
+            Array [
+              Object {
+                "customName": true,
+                "fullname": "",
+                "name": "",
+                "patchName": "Hello world",
+              },
+              Object {
+                "customName": false,
+                "fullname": "Jane Smith",
+                "name": "Jane Smith",
+                "patchName": "Some other name",
+              },
+            ]
+          }
+        />
+      </styled.div>
+    </ErrorBoundary>
+    <Connect(PatchStatisticsCompositions) />
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ArrearsDashboardComposition /> should render the page while loading arrears and tasks 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Connect(ArrearsFiltersComposition)
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="col-lg-9"
+  >
+    <Loader
+      theme={
+        Object {
+          "colors": Object {
+            "tertiaryLighter": "#D9D4D4",
+          },
+        }
+      }
+    />
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <ErrorBoundary
+      messageOnScreen={null}
+    >
+      <styled.div>
+        <ActivePatchList
+          isButtonBottomAligned={true}
+          openPatchSelect={[Function]}
+          patches={
+            Array [
+              Object {
+                "customName": true,
+                "fullname": "",
+                "name": "",
+                "patchName": "Hello world",
+              },
+              Object {
+                "customName": false,
+                "fullname": "Jane Smith",
+                "name": "Jane Smith",
+                "patchName": "Some other name",
+              },
+            ]
+          }
+        />
+      </styled.div>
+    </ErrorBoundary>
+    <Connect(PatchStatisticsCompositions) />
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;
